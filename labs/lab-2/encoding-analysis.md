@@ -25,4 +25,4 @@ imm[20]  |  imm[10:1] | imm[11]  | imm[19:12]  |   rd    | opcode
 
 ## Why immediate is stored in scattered pieces: 
 
-- This is becausethe designers of instruction formats arranged bits so that opcode, funct3 and rd fields sit in the same position across all formats, so immediates are split to occupy space that is left
+- This is because the designers of instruction formats arranged bits so that opcode, funct3 and rd fields sit in the same position across all formats, so immediates are split to occupy space that is left
