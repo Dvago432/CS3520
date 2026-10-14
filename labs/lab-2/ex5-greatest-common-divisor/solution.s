@@ -2,7 +2,7 @@
 
     a: .word 4
     b: .word 8
-    msg: .word "Greatest common divisor: "
+    msg: .asciz "Greatest common divisor: "
 .text
 
 main:
